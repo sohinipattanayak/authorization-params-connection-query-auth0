@@ -5,7 +5,7 @@ import { Auth0Provider } from '@auth0/auth0-react';
 import App from './App';
 
 const domain = "tactiq-nb.cic-demo-platform.auth0app.com";
-const clientId = "43QDYNr9NOxnvx4AdNkz8rcVCxjArcHN";
+const clientId = "your-client-id-here";
 
 createRoot(document.getElementById('root')).render(
   <Auth0Provider
