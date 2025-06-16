@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
   authorizationParams={{
     connection: 'Hooli-Azure-AD',
     response_type: 'code',
-    redirect_uri: 'http://localhost:3000/callback',
+    redirect_uri: 'https://authorization-params-connection-que-rose.vercel.app/callback',
   }}
 >
 
