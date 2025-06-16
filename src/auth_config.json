@@ -1,0 +1,5 @@
+{
+  "domain": "master-demo-21.cic-demo-platform.auth0app.com",
+  "clientId": "2L522rZNTR6a3503aERMmxGxwSXNGnQO",
+  "audience": "{yourApiIdentifier}"
+}
