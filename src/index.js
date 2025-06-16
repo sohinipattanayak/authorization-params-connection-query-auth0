@@ -3,14 +3,12 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Auth0Provider } from '@auth0/auth0-react';
 import App from './App';
-
-const domain = "your-domain-name";
-const clientId = "ifcAEcSFyTwZzjJjhF9LKw3x6JzYt4JJ";
+import configJson from "./auth_config.json";
 
 createRoot(document.getElementById('root')).render(
   <Auth0Provider
-  domain={domain}
-  clientId={clientId}
+  domain={configJson.domain}
+  clientId={configJson.clientId}
   authorizationParams={{
     connection: 'Hooli-Azure-AD',
     response_type: 'code',
