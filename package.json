@@ -15,6 +15,9 @@
     "dev": "npm-run-all --parallel spa api-server:dev",
     "prod": "npm-run-all --parallel server api-server"
   },
+  "engines": {
+  "node": "18.x"
+},
   "dependencies": {
     "@auth0/auth0-react": "^2.2.0",
     "@babel/core": "^7.23",
